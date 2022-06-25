@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.todo-container {
+   display: flex;
+   flex-direction: column;
+   /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 80%;
+    height: auto;
+    font-size: 1.5em;
+}
+
+
+.Completed {
+    color: green;
+}
+
+.Pending {
+    color: red;
+}
+
+.todo {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    align-items: baseline;
+    background-color: aliceblue;
+    row-gap: 5px;
+    margin-bottom: 2vh; 
+}
+
+.todo-item {
+    width: 33vw;
+    margin-left: 1vw;
+}
+
+.complete-btn {
+    background-color: greenyellow;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 5px;
+    margin-right: 0.5vh;
+}
+
+.delete-btn {
+    background-color: red;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 5px;
+}
